@@ -23,6 +23,7 @@
         td0: tap_dance_0 {
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_DANCE_0";
+            #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&kp LBKT>, <&kp LBRC>, <&kp C_PREV>;
         };
@@ -30,6 +31,7 @@
         td1: tap_dance_1 {
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_DANCE_1";
+            #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&kp RBKT>, <&kp RBRC>, <&kp C_NEXT>;
         };
