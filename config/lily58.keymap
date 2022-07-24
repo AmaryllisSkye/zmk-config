@@ -10,7 +10,7 @@
 
 / {
     macros {
-        test_macro: test_macro {
+        macro_wq: macro_wq {
             compatible = "zmk,behavior-macro";
             label = "macro_wq";
             #binding-cells = <0>;
