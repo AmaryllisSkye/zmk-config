@@ -47,10 +47,10 @@
 
         default_layer {
             bindings = <
-   &kp ESC  &kp N1  &kp N2    &kp N3    &kp N4     &kp N5                      &trans  &trans  &trans  &trans  &trans  &trans
-   &kp TAB   &kp Q   &kp W     &kp E     &kp R      &kp T                      &trans  &trans  &trans  &trans  &trans  &trans
- &kp LCTRL   &kp A   &kp S     &kp D     &kp F      &kp G                      &trans  &trans  &trans  &trans  &trans  &trans
- &kp LSHFT   &kp Z   &kp X     &kp C     &kp V      &kp B  &kp RETURN  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+   &kp ESC  &kp N1  &kp N2    &kp N3    &kp N4     &kp N5                      &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp MINUS
+   &kp TAB   &kp Q   &kp W     &kp E     &kp R      &kp T                      &trans  &trans  &trans  &trans  &trans     &trans
+ &kp LCTRL   &kp A   &kp S     &kp D     &kp F      &kp G                      &trans  &trans  &trans  &trans  &trans     &trans
+ &kp LSHFT   &kp Z   &kp X     &kp C     &kp V      &kp B  &kp RETURN  &trans  &trans  &trans  &trans  &trans  &trans     &trans
                             &kp LALT  &kp LGUI  &kp SPACE       &sl 3  &trans  &trans  &trans  &trans
             >;
         };
@@ -72,16 +72,6 @@
  &trans  &trans  &trans  &trans  &trans  &trans                       &trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans
  &trans  &trans  &trans  &trans  &trans  &trans  &kp EQUAL  &kp BSLH  &trans    &trans    &trans  &trans     &trans  &trans
                          &trans  &trans  &trans     &trans    &trans  &trans    &trans    &trans
-            >;
-        };
-
-        other_half {
-            bindings = <
-  &kp BSPC     &kp N6   &kp N7         &kp N8  &kp N9  &kp N0                      &trans  &trans  &trans  &trans  &trans  &trans
- &kp MINUS      &kp P    &kp O          &kp I   &kp U   &kp Y                      &trans  &trans  &trans  &trans  &trans  &trans
-   &kp SQT   &kp SEMI    &kp L          &kp K   &kp J   &kp H                      &trans  &trans  &trans  &trans  &trans  &trans
- &kp RSHFT  &kp SLASH  &kp DOT      &kp COMMA   &kp M   &kp N  &kp RETURN  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                                &kp RIGHT_ALT   &mo 1   &mo 2       &to 0  &trans  &trans  &trans  &trans
             >;
         };
     };
