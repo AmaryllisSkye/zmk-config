@@ -1,4 +1,4 @@
-#include "lily58.dtsi"
+#include "slily58.dtsi"
 
 &default_transform {
 	col-offset = <6>;
